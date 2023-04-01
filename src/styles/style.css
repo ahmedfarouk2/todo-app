@@ -191,7 +191,7 @@ footer {
   transition: 0.3s;
   display: grid;
   color: white;
-  grid-template-columns: 1fr 1fr 1fr 10px;
+  grid-template-columns: 1fr 1fr 1fr 50px;
   gap: 25px;
   place-items: center;
 }

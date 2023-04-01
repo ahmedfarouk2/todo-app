@@ -98,9 +98,15 @@ window.addEventListener('load', () => {
             newTaskForm.classList.remove('tasks-form-appear');
             const newTask = document.querySelectorAll('.tasks');
             const finishedCheckbox = document.querySelectorAll('#finished');
+            const projectName = projectNames[i].innerText;
             for (let z = 0; z < finishedCheckbox.length; z++) {
-              finishedCheckbox[z].addEventListener('click', (e) => {
+              finishedCheckbox[z].addEventListener('click', () => {
                 newTask[z].remove();
+                const tasksDiv = document.querySelectorAll('.tasks');
+                const divArr = JSON.parse(localStorage.getItem(`${projectName}`));
+                const indexTaskName = JSON.parse(localStorage.getItem(`${projectName}`)).indexOf(tasksDiv[z].outerHTML);
+                divArr.splice(indexTaskName, 1);
+                localStorage.setItem(`${projectName}`, JSON.stringify(divArr));
               });
             }
           }, { once: true });
