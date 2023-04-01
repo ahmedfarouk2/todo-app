@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+  <script defer src="index.js"></script><script defer src="project.js"></script></head>
+  <body>
+    <div class="tasks-form-container">
+      <form class="new-task-form">
+        <button class="x-button">X</button>
+        <label for="task-name">Task Name:</label>
+        <input type="text" value="" name="task-name" id="task-name"/>
+        <label for="task-description">Task Description:</label>
+        <input type="description" value="" name="task-description" id="task-description"/>
+        <label for="task-duedate">Task Due-Date:</label>
+        <input type="date" name="task-duedate" id="task-duedate" value="2023-03-31">
+        <input type="submit" id="submit-task-btn"/>
+      </form>
+    </div>
+    <div class="project-form-container">
+      <form class="new-project-form">
+        <button class="x-button">X</button>
+        <label for="project-name">Project name:</label>
+        <input type="text" value="text" name="project-name" id="project-name" />
+        <input type="submit" id="submit-project-btn" />
+      </form>
+    </div>
+    <header>TODO-APP</header>
+    <nav>
+      <div class="new-project">Add a new project</div>
+      <ul class="new-project-insertion"></ul>
+    </nav>
+    <main></main>
+    <footer>Created by Ahmed Farouk (@ahmedfarouk2)</footer>
+  </body>
+</html>
