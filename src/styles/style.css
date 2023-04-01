@@ -1,0 +1,213 @@
+@font-face {
+  font-family: MainFont;
+  src: url('../assets/debrosee-font/Debrosee-ALPnL.ttf');
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: MainFont;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 100px 1fr 50px;
+}
+
+.project-form-container {
+  position: absolute;
+  top: 280px;
+  left: 700px;
+  transition: 0.3s;
+  display: none;
+}
+
+.project-form-appear {
+  transform: scale(1.3);
+}
+
+.x-button {
+  align-self: flex-end;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.new-project-form {
+  width: 220px;
+  height: 220px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
+}
+
+#project-name {
+  border-radius: 15px;
+}
+
+#submit-project-btn {
+  width: 100px;
+  font-weight: bold;
+}
+
+.new-project-form > * {
+  width: 130px;
+}
+
+header,
+nav,
+main,
+footer {
+  border: 1px solid wheat;
+}
+
+header {
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+  font-size: 4rem;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+nav {
+  grid-row: 2 / 4;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: violet;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+ul {
+padding: 0;
+margin: 0;
+transition: 0.3s;
+cursor: pointer;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li:hover {
+  color: blueviolet;
+}
+
+.new-project {
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.3s;
+  height: fit-content;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.new-project:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.new-project-insertion {
+  color: white;
+}
+
+main {
+  grid-column: 2 / 3;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.addNewTask {
+  font-size: 23px;
+  padding: 10px;
+  transition: 0.3s;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-self: flex-end;
+}
+
+.addNewTask:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.tasks-form-container {
+  position: absolute;
+  top: 280px;
+  left: 700px;
+  transition: 0.3s;
+  display: none;
+}
+
+.new-task-form {
+  width: 320px;
+  height: 320px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.task-form-appear {
+  transform: scale(1.3);
+}
+
+.tasks {
+  font-size: 23px;
+  padding: 10px;
+  transition: 0.3s;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr 10px;
+  gap: 25px;
+  place-items: center;
+}
+
+.delete-project {
+  font-size: 23px;
+  color: red;
+  align-self: end;
+  margin-top: auto;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.delete-project:hover {
+  color: black;
+  background-color: white;
+}
