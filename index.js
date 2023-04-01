@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: MainFont;\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n  margin: 0;\n  background-color: black;\n  font-family: MainFont;\n  height: 100vh;\n  display: grid;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 100px 1fr 50px;\n}\n\n.project-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.project-form-appear {\n  transform: scale(1.3);\n}\n\n.x-button {\n  align-self: flex-end;\n  background-color: #fff;\n  border: none;\n  cursor: pointer;\n}\n\n.new-project-form {\n  width: 220px;\n  height: 220px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n#project-name {\n  border-radius: 15px;\n}\n\n#submit-project-btn {\n  width: 100px;\n  font-weight: bold;\n}\n\n.new-project-form > * {\n  width: 130px;\n}\n\nheader,\nnav,\nmain,\nfooter {\n  border: 1px solid wheat;\n}\n\nheader {\n  grid-column: 1 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: greenyellow;\n  font-size: 4rem;\n  text-shadow: #FC0 1px 0 10px;\n}\n\nnav {\n  grid-row: 2 / 4;\n  display: flex;\n  font-size: 1.2rem;\n  align-items: center;\n  flex-direction: column;\n  color: white;\n  gap: 10px;\n}\n\nh1 {\n  margin-bottom: 30px;\n  color: violet;\n  letter-spacing: 7px;\n  text-align: center;\n}\n\nul {\npadding: 0;\nmargin: 0;\ntransition: 0.3s;\ncursor: pointer;\n}\n\nli {\n  margin-bottom: 20px;\n}\n\nli:hover {\n  color: blueviolet;\n}\n\n.new-project {\n  margin-top: 40px;\n  padding: 10px;\n  border-radius: 15px;\n  transition: 0.3s;\n  height: fit-content;\n  cursor: pointer;\n  margin-bottom: 20px;\n}\n\n.new-project:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.new-project-insertion {\n  color: white;\n}\n\nmain {\n  grid-column: 2 / 3;\n  padding: 2rem;\n  display: flex;\n  flex-direction: column;\n}\n\nfooter {\n  grid-column: 2 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: wheat;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.tasks {\n  display: grid;\n  padding: 3rem;\n  grid-template-columns: 1fr;\n  gap: 15px;\n  color: #fff;\n}\n\n.addNewTask {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  height: fit-content;\n  width: fit-content;\n  cursor: pointer;\n  border-radius: 15px;\n  display: flex;\n  justify-content: space-between;\n  color: white;\n  align-self: flex-end;\n}\n\n.addNewTask:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.tasks-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.new-task-form {\n  width: 320px;\n  height: 320px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n.task-form-appear {\n  transform: scale(1.3);\n}\n\n.new-tasks {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  display: flex;\n  justify-content: space-evenly;\n  color: white;\n}\n\n.delete-project {\n  font-size: 23px;\n  color: red;\n  align-self: end;\n  margin-top: auto;\n  transition: 0.3s;\n  cursor: pointer;\n  padding: 10px;\n  border-radius: 15px;\n}\n\n.delete-project:hover {\n  color: black;\n  background-color: white;\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,4CAAsD;AACxD;;AAEA;EACE,SAAS;EACT,uBAAuB;EACvB,qBAAqB;EACrB,aAAa;EACb,aAAa;EACb,8BAA8B;EAC9B,kCAAkC;AACpC;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,oBAAoB;EACpB,sBAAsB;EACtB,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;AACd;;AAEA;;;;EAIE,uBAAuB;AACzB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,kBAAkB;EAClB,eAAe;EACf,4BAA4B;AAC9B;;AAEA;EACE,eAAe;EACf,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB;EACtB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;AACA,UAAU;AACV,SAAS;AACT,gBAAgB;AAChB,eAAe;AACf;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,mBAAmB;EACnB,gBAAgB;EAChB,mBAAmB;EACnB,eAAe;EACf,mBAAmB;AACrB;;AAEA;EACE,sBAAsB;EACtB,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,yCAAyC;AAC3C;;AAEA;EACE,aAAa;EACb,aAAa;EACb,0BAA0B;EAC1B,SAAS;EACT,WAAW;AACb;;AAEA;EACE,eAAe;EACf,aAAa;EACb,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,eAAe;EACf,mBAAmB;EACnB,aAAa;EACb,8BAA8B;EAC9B,YAAY;EACZ,oBAAoB;AACtB;;AAEA;EACE,sBAAsB;EACtB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,eAAe;EACf,aAAa;EACb,gBAAgB;EAChB,aAAa;EACb,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,eAAe;EACf,UAAU;EACV,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,uBAAuB;AACzB","sourcesContent":["@font-face {\n  font-family: MainFont;\n  src: url('../assets/debrosee-font/Debrosee-ALPnL.ttf');\n}\n\nbody {\n  margin: 0;\n  background-color: black;\n  font-family: MainFont;\n  height: 100vh;\n  display: grid;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 100px 1fr 50px;\n}\n\n.project-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.project-form-appear {\n  transform: scale(1.3);\n}\n\n.x-button {\n  align-self: flex-end;\n  background-color: #fff;\n  border: none;\n  cursor: pointer;\n}\n\n.new-project-form {\n  width: 220px;\n  height: 220px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n#project-name {\n  border-radius: 15px;\n}\n\n#submit-project-btn {\n  width: 100px;\n  font-weight: bold;\n}\n\n.new-project-form > * {\n  width: 130px;\n}\n\nheader,\nnav,\nmain,\nfooter {\n  border: 1px solid wheat;\n}\n\nheader {\n  grid-column: 1 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: greenyellow;\n  font-size: 4rem;\n  text-shadow: #FC0 1px 0 10px;\n}\n\nnav {\n  grid-row: 2 / 4;\n  display: flex;\n  font-size: 1.2rem;\n  align-items: center;\n  flex-direction: column;\n  color: white;\n  gap: 10px;\n}\n\nh1 {\n  margin-bottom: 30px;\n  color: violet;\n  letter-spacing: 7px;\n  text-align: center;\n}\n\nul {\npadding: 0;\nmargin: 0;\ntransition: 0.3s;\ncursor: pointer;\n}\n\nli {\n  margin-bottom: 20px;\n}\n\nli:hover {\n  color: blueviolet;\n}\n\n.new-project {\n  margin-top: 40px;\n  padding: 10px;\n  border-radius: 15px;\n  transition: 0.3s;\n  height: fit-content;\n  cursor: pointer;\n  margin-bottom: 20px;\n}\n\n.new-project:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.new-project-insertion {\n  color: white;\n}\n\nmain {\n  grid-column: 2 / 3;\n  padding: 2rem;\n  display: flex;\n  flex-direction: column;\n}\n\nfooter {\n  grid-column: 2 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: wheat;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.tasks {\n  display: grid;\n  padding: 3rem;\n  grid-template-columns: 1fr;\n  gap: 15px;\n  color: #fff;\n}\n\n.addNewTask {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  height: fit-content;\n  width: fit-content;\n  cursor: pointer;\n  border-radius: 15px;\n  display: flex;\n  justify-content: space-between;\n  color: white;\n  align-self: flex-end;\n}\n\n.addNewTask:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.tasks-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.new-task-form {\n  width: 320px;\n  height: 320px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n.task-form-appear {\n  transform: scale(1.3);\n}\n\n.new-tasks {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  display: flex;\n  justify-content: space-evenly;\n  color: white;\n}\n\n.delete-project {\n  font-size: 23px;\n  color: red;\n  align-self: end;\n  margin-top: auto;\n  transition: 0.3s;\n  cursor: pointer;\n  padding: 10px;\n  border-radius: 15px;\n}\n\n.delete-project:hover {\n  color: black;\n  background-color: white;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: MainFont;\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n  margin: 0;\n  background-color: black;\n  font-family: MainFont;\n  height: 100vh;\n  display: grid;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 100px 1fr 50px;\n}\n\n.project-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.project-form-appear {\n  transform: scale(1.3);\n}\n\n.x-button {\n  align-self: flex-end;\n  background-color: #fff;\n  border: none;\n  cursor: pointer;\n}\n\n.new-project-form {\n  width: 220px;\n  height: 220px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n#project-name {\n  border-radius: 15px;\n}\n\n#submit-project-btn {\n  width: 100px;\n  font-weight: bold;\n}\n\n.new-project-form > * {\n  width: 130px;\n}\n\nheader,\nnav,\nmain,\nfooter {\n  border: 1px solid wheat;\n}\n\nheader {\n  grid-column: 1 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: greenyellow;\n  font-size: 4rem;\n  text-shadow: #FC0 1px 0 10px;\n}\n\nnav {\n  grid-row: 2 / 4;\n  display: flex;\n  font-size: 1.2rem;\n  align-items: center;\n  flex-direction: column;\n  color: white;\n  gap: 10px;\n}\n\nh1 {\n  margin-bottom: 30px;\n  color: violet;\n  letter-spacing: 7px;\n  text-align: center;\n}\n\nul {\npadding: 0;\nmargin: 0;\ntransition: 0.3s;\ncursor: pointer;\n}\n\nli {\n  margin-bottom: 20px;\n}\n\nli:hover {\n  color: blueviolet;\n}\n\n.new-project {\n  margin-top: 40px;\n  padding: 10px;\n  border-radius: 15px;\n  transition: 0.3s;\n  height: fit-content;\n  cursor: pointer;\n  margin-bottom: 20px;\n}\n\n.new-project:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.new-project-insertion {\n  color: white;\n}\n\nmain {\n  grid-column: 2 / 3;\n  padding: 2rem;\n  display: flex;\n  flex-direction: column;\n}\n\nfooter {\n  grid-column: 2 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: wheat;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n\n.addNewTask {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  height: fit-content;\n  width: fit-content;\n  cursor: pointer;\n  border-radius: 15px;\n  display: flex;\n  justify-content: space-between;\n  color: white;\n  align-self: flex-end;\n}\n\n.addNewTask:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.tasks-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.new-task-form {\n  width: 320px;\n  height: 320px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n.task-form-appear {\n  transform: scale(1.3);\n}\n\n.tasks {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  display: grid;\n  color: white;\n  grid-template-columns: 1fr 1fr 1fr 10px;\n  gap: 25px;\n  place-items: center;\n}\n\n.delete-project {\n  font-size: 23px;\n  color: red;\n  align-self: end;\n  margin-top: auto;\n  transition: 0.3s;\n  cursor: pointer;\n  padding: 10px;\n  border-radius: 15px;\n}\n\n.delete-project:hover {\n  color: black;\n  background-color: white;\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,4CAAsD;AACxD;;AAEA;EACE,SAAS;EACT,uBAAuB;EACvB,qBAAqB;EACrB,aAAa;EACb,aAAa;EACb,8BAA8B;EAC9B,kCAAkC;AACpC;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,oBAAoB;EACpB,sBAAsB;EACtB,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,YAAY;AACd;;AAEA;;;;EAIE,uBAAuB;AACzB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,kBAAkB;EAClB,eAAe;EACf,4BAA4B;AAC9B;;AAEA;EACE,eAAe;EACf,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,sBAAsB;EACtB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;AACA,UAAU;AACV,SAAS;AACT,gBAAgB;AAChB,eAAe;AACf;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,mBAAmB;EACnB,gBAAgB;EAChB,mBAAmB;EACnB,eAAe;EACf,mBAAmB;AACrB;;AAEA;EACE,sBAAsB;EACtB,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,yCAAyC;AAC3C;;;AAGA;EACE,eAAe;EACf,aAAa;EACb,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,eAAe;EACf,mBAAmB;EACnB,aAAa;EACb,8BAA8B;EAC9B,YAAY;EACZ,oBAAoB;AACtB;;AAEA;EACE,sBAAsB;EACtB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,eAAe;EACf,aAAa;EACb,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,uCAAuC;EACvC,SAAS;EACT,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,UAAU;EACV,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,uBAAuB;AACzB","sourcesContent":["@font-face {\n  font-family: MainFont;\n  src: url('../assets/debrosee-font/Debrosee-ALPnL.ttf');\n}\n\nbody {\n  margin: 0;\n  background-color: black;\n  font-family: MainFont;\n  height: 100vh;\n  display: grid;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 100px 1fr 50px;\n}\n\n.project-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.project-form-appear {\n  transform: scale(1.3);\n}\n\n.x-button {\n  align-self: flex-end;\n  background-color: #fff;\n  border: none;\n  cursor: pointer;\n}\n\n.new-project-form {\n  width: 220px;\n  height: 220px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n#project-name {\n  border-radius: 15px;\n}\n\n#submit-project-btn {\n  width: 100px;\n  font-weight: bold;\n}\n\n.new-project-form > * {\n  width: 130px;\n}\n\nheader,\nnav,\nmain,\nfooter {\n  border: 1px solid wheat;\n}\n\nheader {\n  grid-column: 1 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: greenyellow;\n  font-size: 4rem;\n  text-shadow: #FC0 1px 0 10px;\n}\n\nnav {\n  grid-row: 2 / 4;\n  display: flex;\n  font-size: 1.2rem;\n  align-items: center;\n  flex-direction: column;\n  color: white;\n  gap: 10px;\n}\n\nh1 {\n  margin-bottom: 30px;\n  color: violet;\n  letter-spacing: 7px;\n  text-align: center;\n}\n\nul {\npadding: 0;\nmargin: 0;\ntransition: 0.3s;\ncursor: pointer;\n}\n\nli {\n  margin-bottom: 20px;\n}\n\nli:hover {\n  color: blueviolet;\n}\n\n.new-project {\n  margin-top: 40px;\n  padding: 10px;\n  border-radius: 15px;\n  transition: 0.3s;\n  height: fit-content;\n  cursor: pointer;\n  margin-bottom: 20px;\n}\n\n.new-project:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.new-project-insertion {\n  color: white;\n}\n\nmain {\n  grid-column: 2 / 3;\n  padding: 2rem;\n  display: flex;\n  flex-direction: column;\n}\n\nfooter {\n  grid-column: 2 / 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: wheat;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n\n.addNewTask {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  height: fit-content;\n  width: fit-content;\n  cursor: pointer;\n  border-radius: 15px;\n  display: flex;\n  justify-content: space-between;\n  color: white;\n  align-self: flex-end;\n}\n\n.addNewTask:hover {\n  background-color: #fff;\n  color: black;\n}\n\n.tasks-form-container {\n  position: absolute;\n  top: 280px;\n  left: 700px;\n  transition: 0.3s;\n  display: none;\n}\n\n.new-task-form {\n  width: 320px;\n  height: 320px;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  justify-content: center;\n  border-radius: 15px;\n  align-items: center;\n}\n\n.task-form-appear {\n  transform: scale(1.3);\n}\n\n.tasks {\n  font-size: 23px;\n  padding: 10px;\n  transition: 0.3s;\n  display: grid;\n  color: white;\n  grid-template-columns: 1fr 1fr 1fr 10px;\n  gap: 25px;\n  place-items: center;\n}\n\n.delete-project {\n  font-size: 23px;\n  color: red;\n  align-self: end;\n  margin-top: auto;\n  transition: 0.3s;\n  cursor: pointer;\n  padding: 10px;\n  border-radius: 15px;\n}\n\n.delete-project:hover {\n  color: black;\n  background-color: white;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -22276,75 +22276,117 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+/* eslint-disable no-shadow */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-loop-func */
 
 
 
-const projectNames = document.querySelectorAll('li');
 window.addEventListener('load', () => {
-  console.log('zozo');
-  for (let i = 0; i < projectNames.length; i++) {
-    const xButtonForm = document.querySelector('.x-button');
-    const main = document.querySelector('main');
-    projectNames[i].addEventListener('click', (e) => {
-      main.innerText = '';
-      const h1 = document.createElement('h1');
-      const div = document.createElement('div');
-      const div2 = document.createElement('div');
-      h1.innerText = `Welcome to project ${projectNames[i].innerText}`;
-      div.innerHTML = '<span class ="addNewTask">Add a new task</span>';
-      div2.innerText = 'Delete This Project';
-      div2.classList.add('delete-project');
-      main.append(h1);
-      main.append(div);
-      main.append(div2);
-      const deleteProjectBtn = document.querySelector('.delete-project');
-      deleteProjectBtn.addEventListener('click', (e) => {
-        projectNames[i].remove();
-        main.innerText = '';
-        const liArr = JSON.parse(localStorage.getItem('Projects'));
-        const indexProjectName = JSON.parse(localStorage.getItem('Projects')).indexOf(projectNames[i].outerHTML);
-        liArr.splice(indexProjectName, 1);
-        localStorage.setItem('Projects', JSON.stringify(liArr));
-      });
-      const addNewTask = document.querySelector('.addNewTask');
-      addNewTask.addEventListener('click', (e) => {
-        const newTaskForm = document.querySelector('.tasks-form-container');
-        const submitTaskButton = document.querySelector('#submit-task-btn');
+  setTimeout(() => {
+    const projectNames = document.querySelectorAll('li');
+    for (let i = 0; i < projectNames.length; i++) {
+      projectNames[i].addEventListener('click', () => {
         setTimeout(() => {
-          newTaskForm.classList.add('task-form-appear');
-        }, 1);
-        newTaskForm.style.display = 'flex';
-        xButtonForm.addEventListener('click', (e) => {
-          e.preventDefault();
-          newTaskForm.style.display = 'none';
-          newTaskForm.classList.remove('project-form-appear');
-        });
-        submitTaskButton.addEventListener('click', (e) => {
-          const taskName = document.querySelector('#task-name');
-          const taskDescription = document.querySelector('#task-description');
-          const taskDate = moment__WEBPACK_IMPORTED_MODULE_1___default()().format(document.querySelector('#task-duedate').value);
-          e.preventDefault();
-          const div1 = document.createElement('div');
-          div1.classList.add('new-tasks');
-          div1.innerHTML = `<span>Task Name: ${taskName.value}</span><span>Task Description: ${taskDescription.value}</span><span>Task Date: ${taskDate}</span><span><input type="checkbox" id="finished"></span>`;
-          div.append(div1);
-          newTaskForm.style.display = 'none';
-          newTaskForm.classList.remove('tasks-form-appear');
-          const newTask = document.querySelectorAll('.new-tasks');
+          const outerTaskDiv = document.querySelector('.main-task-div');
+          const mainTaskDiv = document.createElement('div');
+          mainTaskDiv.classList.add('new-tasks');
+          outerTaskDiv.append(mainTaskDiv);
+          const projectName = projectNames[i].innerText;
+          const savedTasks = JSON.parse(localStorage.getItem(`${projectName}`) || '[]');
+          for (let j = 0; j < savedTasks.length; j++) {
+            mainTaskDiv.innerHTML += savedTasks[j];
+          }
+          const newTask = document.querySelectorAll('.tasks');
           const finishedCheckbox = document.querySelectorAll('#finished');
           for (let z = 0; z < finishedCheckbox.length; z++) {
-            finishedCheckbox[z].addEventListener('click', (e) => {
-              newTask[z].remove();
+            finishedCheckbox[z].addEventListener('click', () => {
+              setTimeout(() => {
+                newTask[z].remove();
+              }, 1000);
+              const tasksDiv = document.querySelectorAll('.tasks');
+              const divArr = JSON.parse(localStorage.getItem(`${projectName}`));
+              const indexTaskName = JSON.parse(localStorage.getItem(`${projectName}`)).indexOf(tasksDiv[z].outerHTML);
+              divArr.splice(indexTaskName, 1);
+              localStorage.setItem(`${projectName}`, JSON.stringify(divArr));
             });
           }
-        }, { once: true });
+        }, 2000);
       });
-    });
-  }
+    }
+  }, 500);
 });
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const projectNames = document.querySelectorAll('li');
+    for (let i = 0; i < projectNames.length; i++) {
+      const xButtonForm = document.querySelector('.x-button');
+      const main = document.querySelector('main');
+      projectNames[i].addEventListener('click', (e) => {
+        main.innerText = '';
+        const h1 = document.createElement('h1');
+        const div = document.createElement('div');
+        div.classList.add('main-task-div');
+        const div2 = document.createElement('div');
+        h1.innerText = `Welcome to project ${projectNames[i].innerText}`;
+        div.innerHTML = '<span class ="addNewTask">Add a new task</span>';
+        div2.innerText = 'Delete This Project';
+        div2.classList.add('delete-project');
+        main.append(h1);
+        main.append(div);
+        main.append(div2);
+        const deleteProjectBtn = document.querySelector('.delete-project');
+        deleteProjectBtn.addEventListener('click', (e) => {
+          projectNames[i].remove();
+          main.innerText = '';
+          const liArr = JSON.parse(localStorage.getItem('Projects'));
+          const indexProjectName = JSON.parse(localStorage.getItem('Projects')).indexOf(projectNames[i].outerHTML);
+          liArr.splice(indexProjectName, 1);
+          localStorage.setItem('Projects', JSON.stringify(liArr));
+        });
+        const addNewTask = document.querySelector('.addNewTask');
+        addNewTask.addEventListener('click', (e) => {
+          const newTaskForm = document.querySelector('.tasks-form-container');
+          const submitTaskButton = document.querySelector('#submit-task-btn');
+          setTimeout(() => {
+            newTaskForm.classList.add('task-form-appear');
+          }, 1);
+          newTaskForm.style.display = 'flex';
+          xButtonForm.addEventListener('click', (e) => {
+            e.preventDefault();
+            newTaskForm.style.display = 'none';
+            newTaskForm.classList.remove('project-form-appear');
+          });
+          submitTaskButton.addEventListener('click', (e) => {
+            const taskName = document.querySelector('#task-name');
+            const taskDescription = document.querySelector('#task-description');
+            const taskDate = moment__WEBPACK_IMPORTED_MODULE_1___default()().format(document.querySelector('#task-duedate').value);
+            e.preventDefault();
+            const div1 = document.createElement('div');
+            div1.classList.add('new-tasks');
+            div1.innerHTML = `<div class ="tasks"><span>Task Name: ${taskName.value}</span><span>Task Description: ${taskDescription.value}</span><span>Task Date: ${taskDate}</span><span><input type="checkbox" id="finished"></span></div>`;
+            div.append(div1);
+            let divArr = JSON.parse(localStorage.getItem(`${projectNames[i].innerText}`) || '[]');
+            divArr.push(div1.innerHTML);
+            localStorage.setItem(`${projectNames[i].innerText}`, JSON.stringify(divArr));
+            divArr = [];
+            newTaskForm.style.display = 'none';
+            newTaskForm.classList.remove('tasks-form-appear');
+            const newTask = document.querySelectorAll('.tasks');
+            const finishedCheckbox = document.querySelectorAll('#finished');
+            for (let z = 0; z < finishedCheckbox.length; z++) {
+              finishedCheckbox[z].addEventListener('click', (e) => {
+                newTask[z].remove();
+              });
+            }
+          }, { once: true });
+        });
+      });
+    }
+  });
+}, 1000);
 
 })();
 
