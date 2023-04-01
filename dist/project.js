@@ -21768,8 +21768,12 @@ function submitProjectName(e) {
           e.preventDefault();
           const div1 = document.createElement('div');
           div1.classList.add('new-tasks');
-          div1.innerHTML = `<span>Task Name: ${taskName.value}</span><span>Task Description: ${taskDescription.value}</span><span>Task Date: ${taskDate}</span><span><input type="checkbox" id="finished"></span>`;
+          div1.innerHTML = `<div class ="tasks"><span>Task Name: ${taskName.value}</span><span>Task Description: ${taskDescription.value}</span><span>Task Date: ${taskDate}</span><span><input type="checkbox" id="finished"></span></div>`;
           div.append(div1);
+          let divArr = JSON.parse(localStorage.getItem(`${projectNames[i].innerText}`) || '[]');
+          divArr.push(div1.innerHTML);
+          localStorage.setItem(`${projectNames[i].innerText}`, JSON.stringify(divArr));
+          divArr = [];
           newTaskForm.style.display = 'none';
           newTaskForm.classList.remove('tasks-form-appear');
           const newTask = document.querySelectorAll('.new-tasks');
